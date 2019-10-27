@@ -19,8 +19,12 @@ namespace Dinner.Sync
             Soup soup = (new Cooking()).MakeSoup();
             Console.WriteLine($"국 준비 완료 - {soup.GetHashCode()}");
 
+            //[3] 달걀 만들기
+            Egg egg = (new Cooking()).MakeEgg();
+            Console.WriteLine($"달걀 준비 완료 - {egg.GetHashCode()}");
+
             stopwatch.Stop();
-            Console.WriteLine($"시간: {stopwatch.ElapsedMilliseconds}밀리초");
+            Console.WriteLine($"\n시간: {stopwatch.ElapsedMilliseconds}밀리초");
 
             Console.WriteLine("동기 방식으로 식사 준비 완료");
         }

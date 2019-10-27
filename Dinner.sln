@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dinner.Common", "Dinner.Common\Dinner.Common.csproj", "{29EDCAF7-5F2A-4AC3-BA01-517644848CF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinner.Sync", "Dinner.Sync\Dinner.Sync.csproj", "{7B106976-CA11-430B-A6A1-B0AE05C91167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dinner.Sync", "Dinner.Sync\Dinner.Sync.csproj", "{7B106976-CA11-430B-A6A1-B0AE05C91167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinner.Sync.WindowsForms", "Dinner.Sync.WindowsForms\Dinner.Sync.WindowsForms.csproj", "{505B3F5B-D5DA-4227-9B1F-DB74294306DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7B106976-CA11-430B-A6A1-B0AE05C91167}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B106976-CA11-430B-A6A1-B0AE05C91167}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B106976-CA11-430B-A6A1-B0AE05C91167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505B3F5B-D5DA-4227-9B1F-DB74294306DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505B3F5B-D5DA-4227-9B1F-DB74294306DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505B3F5B-D5DA-4227-9B1F-DB74294306DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505B3F5B-D5DA-4227-9B1F-DB74294306DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

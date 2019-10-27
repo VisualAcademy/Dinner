@@ -28,6 +28,17 @@ namespace Dinner.Common
             Thread.Sleep(1001);
             return new Soup(); 
         }
+
+        /// <summary>
+        /// 동기 방식의 달걀 만들기 메서드
+        /// </summary>
+        /// <returns>달걀</returns>
+        public Egg MakeEgg()
+        {
+            Console.WriteLine("달걀 생성중...");
+            Thread.Sleep(1001);
+            return new Egg();
+        }
     }
 
     public class Rice
