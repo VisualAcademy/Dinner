@@ -1,13 +1,6 @@
 ﻿using Dinner.Common;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Dinner.Sync.WindowsForms
@@ -44,7 +37,8 @@ namespace Dinner.Sync.WindowsForms
 
         private void btnWachingTV_Click(object sender, EventArgs e)
         {
-            lblDisplay.Text = "TV 보는 중... " + DateTime.Now.Millisecond.ToString(); 
+            lblDisplay.Text = 
+                "TV 보는 중... " + DateTime.Now.Millisecond.ToString(); 
         }
     }
 }
