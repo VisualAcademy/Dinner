@@ -24,7 +24,7 @@ namespace Dinner.Common
         public async Task<Rice> MakeRiceAsync()
         {
             Console.WriteLine("밥 생성중...");
-            await Task.Delay(1001); 
+            await Task.Delay(1001); //[A]
             return new Rice();
         }
 
@@ -46,7 +46,7 @@ namespace Dinner.Common
         public async Task<Soup> MakeSoupAsync()
         {
             Console.WriteLine("국 생성중...");
-            await Task.Delay(1001);
+            await Task.Run(() => Task.Delay(1001)); //[B]
             return new Soup();
         }
 
@@ -69,7 +69,7 @@ namespace Dinner.Common
         {
             Console.WriteLine("달걀 생성중...");
             await Task.Delay(TimeSpan.FromMilliseconds(1001));
-            return await Task.FromResult<Egg>(new Egg());
+            return await Task.FromResult<Egg>(new Egg()); //[C]
         }
     }
 
