@@ -56,7 +56,7 @@
             // lblDisplay
             // 
             this.lblDisplay.AutoSize = true;
-            this.lblDisplay.Location = new System.Drawing.Point(63, 78);
+            this.lblDisplay.Location = new System.Drawing.Point(63, 67);
             this.lblDisplay.Name = "lblDisplay";
             this.lblDisplay.Size = new System.Drawing.Size(0, 12);
             this.lblDisplay.TabIndex = 2;
