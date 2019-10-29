@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Sync", "01_Sync", "{1E16
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Async", "02_Async", "{1F7AF408-0988-4002-8C61-67F50D592090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dinner", "Dinner\Dinner.csproj", "{0F7BF58B-5311-488E-B255-841927C227BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{30E3837E-1801-420D-87D8-69957D4DC7F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30E3837E-1801-420D-87D8-69957D4DC7F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30E3837E-1801-420D-87D8-69957D4DC7F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7BF58B-5311-488E-B255-841927C227BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7BF58B-5311-488E-B255-841927C227BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7BF58B-5311-488E-B255-841927C227BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7BF58B-5311-488E-B255-841927C227BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
