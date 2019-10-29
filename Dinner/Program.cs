@@ -25,7 +25,7 @@ namespace Dinner
                         Egg egg = await(new Cooking()).MakeEggAsync();
                         Console.WriteLine($"달걀 재료 준비 완료: {egg.GetHashCode()}");
 
-                        Rice rice = await(new Cooking()).MakeRiceAsync(); // 스레드 차단: false
+                        Rice rice = await(new Cooking()).MakeRiceAsync(); 
                         Console.WriteLine($"김밥 준비 완료: {rice.GetHashCode()}");
 
                         Soup soup = await(new Cooking()).MakeSoupAsync();
@@ -33,7 +33,7 @@ namespace Dinner
                         
                         stopwatch.Stop();
 
-                        Console.WriteLine($"\n시간: {stopwatch.ElapsedMilliseconds}밀리초");
+                        Console.WriteLine($"\n시간: {stopwatch.ElapsedMilliseconds}");
                         Console.WriteLine("비동기 방식으로 식사(김밥) 준비 완료");
                     }
                     break;
@@ -56,7 +56,7 @@ namespace Dinner
 
                         stopwatch.Stop();
 
-                        Console.WriteLine($"\n시간: {stopwatch.ElapsedMilliseconds}밀리초");
+                        Console.WriteLine($"\n시간: {stopwatch.ElapsedMilliseconds}");
                         Console.WriteLine("비동기 방식으로 식사 준비 완료");
                     }
                     break;
@@ -77,7 +77,7 @@ namespace Dinner
 
                         stopwatch.Stop();
 
-                        Console.WriteLine($"\n시간: {stopwatch.ElapsedMilliseconds}밀리초");
+                        Console.WriteLine($"\n시간: {stopwatch.ElapsedMilliseconds}");
                         Console.WriteLine("비동기 방식으로 식사 준비 완료");
                     }
                     break;
@@ -117,7 +117,7 @@ namespace Dinner
                         stopwatch.Stop();
 
                         Console.WriteLine(
-                            $"\n시간: {stopwatch.ElapsedMilliseconds}밀리초");
+                            $"\n시간: {stopwatch.ElapsedMilliseconds}");
                         Console.WriteLine("비동기 방식으로 식사 준비 완료");
                     }
                     break;
@@ -140,7 +140,7 @@ namespace Dinner
 
                         stopwatch.Stop();
 
-                        Console.WriteLine($"\n시간: {stopwatch.ElapsedMilliseconds}밀리초");
+                        Console.WriteLine($"\n시간: {stopwatch.ElapsedMilliseconds}");
                         Console.WriteLine("동기 방식으로 식사 준비 완료");
                     }
                     break;
