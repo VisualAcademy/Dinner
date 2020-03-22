@@ -22,13 +22,13 @@ namespace Dinner
                         Stopwatch stopwatch = new Stopwatch();
                         stopwatch.Start();
 
-                        Egg egg = await(new Cooking()).MakeEggAsync();
+                        Egg egg = await (new Cooking()).MakeEggAsync();
                         Console.WriteLine($"달걀 재료 준비 완료: {egg.GetHashCode()}");
 
-                        Rice rice = await(new Cooking()).MakeRiceAsync(); 
+                        Rice rice = await (new Cooking()).MakeRiceAsync(); 
                         Console.WriteLine($"김밥 준비 완료: {rice.GetHashCode()}");
 
-                        Soup soup = await(new Cooking()).MakeSoupAsync();
+                        Soup soup = await (new Cooking()).MakeSoupAsync();
                         Console.WriteLine($"국 준비 완료: {soup.GetHashCode()}");
                         
                         stopwatch.Stop();
