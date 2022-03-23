@@ -35,7 +35,7 @@ namespace Dinner.Async.Wpf
             lblDisplay.Content = ("비동기 방식으로 식사 준비 완료");
         }
 
-        private void btnWachingTV_Click(object sender, RoutedEventArgs e)
+        private void btnWatchingTV_Click(object sender, RoutedEventArgs e)
         {
             lblDisplay.Content =
                 "TV 보는 중... " + DateTime.Now.Millisecond.ToString();

@@ -10,9 +10,9 @@
         <Button x:Name="btnMakeDinner" Content="식사 준비" 
                 HorizontalAlignment="Left" Margin="88,49,0,0" VerticalAlignment="Top" 
                 Width="75" Click="btnMakeDinner_Click"/>
-        <Button x:Name="btnWachingTV" Content="TV 보기" HorizontalAlignment="Left" 
+        <Button x:Name="btnWatchingTV" Content="TV 보기" HorizontalAlignment="Left" 
                 Margin="283,49,0,0" VerticalAlignment="Top" Width="75" 
-                Click="btnWachingTV_Click" />
+                Click="btnWatchingTV_Click" />
         <Label x:Name="lblDisplay" Content="" HorizontalAlignment="Left" 
                Margin="88,104,0,0" VerticalAlignment="Top"/>
     </Grid>
