@@ -35,7 +35,7 @@ namespace Dinner.Sync.WindowsForms
             lblDisplay.Text = ("동기 방식으로 식사 준비 완료");
         }
 
-        private void btnWachingTV_Click(object sender, EventArgs e)
+        private void btnWatchingTV_Click(object sender, EventArgs e)
         {
             lblDisplay.Text = 
                 "TV 보는 중... " + DateTime.Now.Millisecond.ToString(); 

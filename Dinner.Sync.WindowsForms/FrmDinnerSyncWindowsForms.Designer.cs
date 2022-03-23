@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnMakeDinner = new System.Windows.Forms.Button();
-            this.btnWachingTV = new System.Windows.Forms.Button();
+            this.btnWatchingTV = new System.Windows.Forms.Button();
             this.lblDisplay = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -43,15 +43,15 @@
             this.btnMakeDinner.UseVisualStyleBackColor = true;
             this.btnMakeDinner.Click += new System.EventHandler(this.btnMakeDinner_Click);
             // 
-            // btnWachingTV
+            // btnWatchingTV
             // 
-            this.btnWachingTV.Location = new System.Drawing.Point(248, 24);
-            this.btnWachingTV.Name = "btnWachingTV";
-            this.btnWachingTV.Size = new System.Drawing.Size(75, 23);
-            this.btnWachingTV.TabIndex = 1;
-            this.btnWachingTV.Text = "TV 보기";
-            this.btnWachingTV.UseVisualStyleBackColor = true;
-            this.btnWachingTV.Click += new System.EventHandler(this.btnWachingTV_Click);
+            this.btnWatchingTV.Location = new System.Drawing.Point(248, 24);
+            this.btnWatchingTV.Name = "btnWatchingTV";
+            this.btnWatchingTV.Size = new System.Drawing.Size(75, 23);
+            this.btnWatchingTV.TabIndex = 1;
+            this.btnWatchingTV.Text = "TV 보기";
+            this.btnWatchingTV.UseVisualStyleBackColor = true;
+            this.btnWatchingTV.Click += new System.EventHandler(this.btnWatchingTV_Click);
             // 
             // lblDisplay
             // 
@@ -67,7 +67,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(387, 118);
             this.Controls.Add(this.lblDisplay);
-            this.Controls.Add(this.btnWachingTV);
+            this.Controls.Add(this.btnWatchingTV);
             this.Controls.Add(this.btnMakeDinner);
             this.Name = "FrmDinnerSyncWindowsForms";
             this.Text = "Form1";
@@ -79,7 +79,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnMakeDinner;
-        private System.Windows.Forms.Button btnWachingTV;
+        private System.Windows.Forms.Button btnWatchingTV;
         private System.Windows.Forms.Label lblDisplay;
     }
 }
